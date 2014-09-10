@@ -6,9 +6,11 @@
 
 get_header(); ?>
 
-<p>Welcome to impact pharmacy online</p>
+<div id="slider">
+	<p>Welcome to impact pharmacy online</p>
+</div>
 
-<?php echo do_shortcode('[featured_products per_page="1" columns="1"]'); ?>
-<?php echo do_shortcode('[recent_products per_page="1" columns="1"]'); ?>
+<?php echo do_shortcode('[featured_products per_page="3" columns="3"]'); ?>
+<?php echo do_shortcode('[recent_products per_page="3" columns="3"]'); ?>
 
 <?php get_footer(); ?>
